@@ -1,6 +1,6 @@
 import streamlit as st
 
-image_path='/Users/hanchang/mu_code/image.py/Background_photo.jpg'
+image_path='images/Background_photo.jpg'
 st.image(image_path, use_column_width=True)
 
 st.title(":rainbow[Basic Knowledge of Art] 🥳")
