@@ -16,7 +16,7 @@ st.write(" ")
 st.write(" ")
 st.write(" ")
 st.subheader(":red[Art Elements 艺术元素] 🖌️")
-image_path='/Users/hanchang/mu_code/image.py/art_elements.png'
+image_path='images/art_elements.png'
 st.image(image_path, use_column_width=True)
 st.write("The seven elements of art are line, shape, form, space, value, color, and texture. They are the building blocks of any artworks and learning them can help you create a more expressive and impactful artwork.")
 st.write("艺术的七个元素是线条、形状、形态、空间、明暗、色彩和肌理。它们是任何艺术作品的基本构成要素，学习它们有助于你创作出更具表现力和感染力的艺术作品。")
@@ -26,7 +26,7 @@ if st.button(":red[Find out more about art elements here! 点击这里了解更�
 st.write(" ")
 st.write(" ")
 st.subheader(":orange[Art Principles 艺术原则] 🎨")
-image_path='/Users/hanchang/mu_code/image.py/art_principles.png'
+image_path='images/art_principles.png'
 st.image(image_path, use_column_width=True)
 st.write("Art principles are also known as the principles of art and design. The nine principles of art are pattern, balance, variety, emphasis, movement, scale, harmony, unity and contrast. They are the ways art elements are applied and arranged and they can help you create a more visually interesting or aesthetically pleasing artwork.")
 st.write("艺术原则也被称为艺术与设计原则。艺术的九个原则是图案、平衡、变化、强调、运动、比例、和谐、统一和对比。它们是艺术元素的应用与安排，能够帮助你创作出更具视觉吸引力或更令人赏心悦目的艺术作品。")
@@ -36,7 +36,7 @@ if st.button(":orange[Find out more about art principles here! 点击这里了�
 st.write(" ")
 st.write(" ")
 st.subheader(":blue[Famous Artworks 著名艺术作品] 🖼️")
-image_path='/Users/hanchang/mu_code/image.py/famous_artworks.png'
+image_path='images/famous_artworks.png'
 st.image(image_path, use_column_width=True)
 st.write("Across the globe, there are numerous famous artworks, many of which have a long-lasting impact on society. Seven of these well-known artworks are Mona Lisa, Girl with a Pearl Earring, The Persistence of Memory, Starry Night, Guernica, Impression, Sunrise, and The Great Wave off Kanagawa. Feel Free to search for more famous artworks online if you are interested!")
 st.write("在世界各地，有无数著名的艺术作品，其中许多都对社会产生了深远的影响。这些知名的艺术作品包括《蒙娜丽莎》《戴珍珠耳环的少女》《记忆的永恒》《星夜》《格尔尼卡》《印象·日出》和《神奈川冲浪里》。如果你感兴趣，可以随时在网上搜索更多著名艺术作品！")
@@ -49,7 +49,7 @@ st.divider()
 st.subheader(":rainbow[Game Section] 👾")
 st.write("Bluey is a cute little dog, and she's on a quest to find her little sister, Bingo. Along the way, Bluey meets a wizard who tells her that Bingo has been taken and is now under the wizard’s spell. The only way Bluey can rescue her sister is by answering some art-related questions correctly. Do you want to help Bluey answer the questions and save Bingo?")
 st.write("布鲁伊是一只可爱的小狗，她正在寻找自己的妹妹宾果。途中，布鲁伊遇到了一位巫师，巫师告诉她宾果已被带走，现在正处于他的魔法控制之下。布鲁伊要想救出妹妹，就必须正确回答一些与艺术相关的问题。你想帮助布鲁伊回答问题并救出宾果吗？")
-image_path='/Users/hanchang/mu_code/image.py/Game1.png'
+image_path='images/Game1.png'
 st.image(image_path, use_column_width=True)
 
 easy_questions = [
@@ -114,7 +114,7 @@ def game_section():
 
         if correct_count >= score_threshold:
             st.success(success_message)
-            st.image('/Users/hanchang/mu_code/image.py/Game2.png', use_column_width=True)
+            st.image('images/Game2.png', use_column_width=True)
         else:
             st.warning(failure_message)
 
